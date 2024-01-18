@@ -332,6 +332,52 @@ nav h3 {
   font-size: 1.5vw;
 }
 
+#page3 {
+  min-height: 70vh;
+  width: 100%;
+  background-color: #efeae3;
+  padding: 5vw 1vw;
+}
+
+#product-items {
+  max-width: 100%;
+  margin: 0 auto;
+  margin: 4vw 2vw;
+  padding: 1vw;
+}
+#pitem {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 1vw;
+  text-align: center;
+}
+#pitem img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+#pitem-title {
+  margin-top: 2vw;
+}
+
+#products ul {
+  padding: 0 3vw;
+}
+
+#products li {
+  font-size: 2vw;
+  color: #fe320a;
+}
+
+#products h5 {
+  color: #000;
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+
 #page4 {
   min-height: 70vh;
   width: 100%;
@@ -447,10 +493,10 @@ form #submit {
   margin-top: 2vw;
   padding: 1vw 2vw;
   width: 100%;
-  background-color: #000;
+  background-color: #212121;
   border: none;
   outline: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.327);
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -621,7 +667,7 @@ form input:focus {
     height: 90vh;
     width: 100%;
     /* background-color: aliceblue; */
-    padding: 10vw 4vw;
+    padding: 5vw 4vw;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -669,14 +715,14 @@ form input:focus {
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
   }
-  .citem {
+  .pitem {
     margin-top: 4vw;
     max-width: 100%;
   }
   .item {
     max-width: 100%;
   }
-  #customers ul {
+  #products ul {
     margin: 0 2vw;
   }
   #customers {
@@ -688,26 +734,48 @@ form input:focus {
   #customers h5 {
     font-size: 3vw;
   }
+  #products ul {
+    margin: 0 2vw;
+  }
+  #products {
+    margin-top: 20vw;
+  }
+  #products li {
+    font-size: 3vw;
+  }
+  #products h5 {
+    font-size: 3vw;
+  }
   #bottom-part2 {
     margin-top: 4vw;
   }
   #footer-div {
     flex-direction: column;
-    min-height: 60vh;
+    min-height: 80vh;
   }
   #footer-bottom h3 {
     font-size: 4vw;
   }
   .left-side h3 {
     font-size: 4vw;
+    margin-bottom: 2vw;
   }
   .left-side {
     width: 100%;
-    margin-bottom: 10vw;
+    margin-bottom: -8vw;
   }
   .right-side {
     width: 100%;
     margin-bottom: 10vw;
+  }
+  .right-side input {
+    margin-top: 4vw;
+    padding: 3vw 2vw;
+    /* width: 100%;
+    background-color: #000;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white; */
   }
   form #submit {
     margin-top: 4vw;
