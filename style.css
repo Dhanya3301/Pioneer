@@ -308,16 +308,19 @@ nav h3 {
 #cards {
   width: 100%;
   margin-top: 4vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns in each row */
+  gap: 20px;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
 }
 
 .item {
   margin: 0 2vw;
   padding: 1vw;
   flex: 1;
-  max-width: 33%;
+  max-width: 100%;
   border: 1px solid #0000006a;
   border-radius: 20px;
 }
@@ -736,6 +739,13 @@ form input:focus {
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
   }
+  #cards {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+  .item {
+    max-width: 40%;
+  }
   #page4 {
     padding: 4vw;
   }
@@ -743,9 +753,7 @@ form input:focus {
     margin-top: 4vw;
     max-width: 100%;
   }
-  .item {
-    max-width: 100%;
-  }
+
   #products ul {
     margin: 0 2vw;
   }
