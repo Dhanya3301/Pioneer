@@ -36,17 +36,3 @@ cd pioneer-enterprise-landing
 ```
 
 3. Open the `index.html` file in your web browser to view the landing page.
-
-## Contributing
-
-Contributions to this project are not currently being accepted as it was developed as a freelance project for a specific client. However, feedback and suggestions are always welcome.
-
-## License
-
-This project is not licensed for distribution as it was created for a specific client. All rights reserved to Pioneer Enterprise.
-
-## Contact
-
-For inquiries or support related to Pioneer Enterprise, please contact the company directly at [contact@pioneerenterprise.com](mailto:contact@pioneerenterprise.com).
-
-Thank you for your interest in the Pioneer Enterprise Landing Page!
